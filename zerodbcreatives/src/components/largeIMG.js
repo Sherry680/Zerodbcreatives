@@ -1,4 +1,4 @@
-
+import Footer from '../components/footer';
 
 const LargeIMG = () => {
     return ( 
@@ -13,22 +13,25 @@ const LargeIMG = () => {
             <div className="gallery">
                 <div className="para">
                     <p></p>
-                    <button></button>
+                    <button className="btn"></button>
                 </div>
-                <div className="left">
-                    <img src="" alt="large" className="large" />
-                    <img src="" alt="small" className="small" />
-                </div>
-                <div className="center">
-                    <img src="" alt="small" className="small" />
-                    <img src="" alt="small" className="small" />
-                    <img src="" alt="large" className="large" />
-                </div>
-                <div className="right">
-                    <img src="" alt="large" className="large" />
-                    <img src="" alt="small" className="small" />
-                </div>
+               <div className="gall">
+                    <div className="left col">
+                        <img src="" alt="large" className="large" />
+                        <img src="" alt="small" className="small" />
+                    </div>
+                    <div className="center col">
+                        <img src="" alt="small" className="small" />
+                        <img src="" alt="small" className="small" />
+                        <img src="" alt="large" className="large" />
+                    </div>
+                    <div className="right col">
+                        <img src="" alt="large" className="large" />
+                        <img src="" alt="small" className="small" />
+                    </div>
+               </div>
             </div>
+            <Footer />
             <div className="carousel">
                 <img src="" alt="car" />
                 <img src="" alt="car"/>

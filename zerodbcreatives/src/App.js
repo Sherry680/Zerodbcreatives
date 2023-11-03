@@ -10,7 +10,6 @@ function App() {
       <Hero />
       <About />
       <LargeIMG />
-      <Footer />
     </div>
   );
 }

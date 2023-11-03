@@ -3,6 +3,7 @@
 const Footer = () => {
     return ( 
         <div className="footer">
+            <div className="dash"></div>
             <ul className="nav">
                 <li>About Us</li>
                 <li>Photography</li>
@@ -23,12 +24,8 @@ const Footer = () => {
                 <li></li>
                 <li></li>
             </ul>
-            <div className="dash"></div>
-            <div className="bottom">
-                <img src="" alt="logo" />
-                <span>Copyright@2023</span>
-                <span>Privacy Policy</span>
-            </div>
+            
+            
         </div>
      );
 }
