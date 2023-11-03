@@ -10,7 +10,7 @@ const Hero = () => {
                 <li>Photography</li>
                 <li>Contact Us</li>
                </ul> 
-                <ul>
+                <ul className="social">
                     <li>{/* ion icons*/}</li>
                     <li></li>
                     <li></li>
