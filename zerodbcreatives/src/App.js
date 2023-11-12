@@ -1,11 +1,7 @@
 import Hero from './components/hero';
-import About from './components/aboutUS';
+import About from './components/aboutUs';
 import LargeIMG from './components/largeIMG';
 import Footer from './components/footer';
-import Hero from './components/hero.js';
-import About from './components/aboutUS.js';
-import LargeIMG from './components/largeIMG.js';
-import Footer from './components/footer.js';
 import './styles/app.css';
 
 function App() {
